@@ -10,6 +10,7 @@ function mainTick() {
         if (system.currentTick % 100 === 0) {
             var my_name = "Steve";
             // write code here to get the player's name
+            //hi
             world.sendMessage("Hello " + my_name + "! Tick: " + system.currentTick);
         }
     }
